@@ -1,6 +1,8 @@
 import socket
 import termcolor
+import pyfiglet
 
+print(pyfiglet.figlet_format("RED--CHIKA",font="slant"))
 
 def scan(target, ports):
     print('\n' + ' Mulai Scan Untuk ' + str(target))
